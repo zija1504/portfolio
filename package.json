@@ -1,0 +1,19 @@
+{
+  "name": "przyklad1",
+  "version": "1.0.0",
+  "description": "przyklad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "author": "jacek",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
